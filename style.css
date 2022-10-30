@@ -20,18 +20,18 @@
     font-size: 20px;
 }
 .text-xsm{
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .navbar{
     /* background-color: antiquewhite; */
     align-items: center;
-    padding: 16px 0px 4px 14px;
+    padding: 16px 0px 4px 32px;
     cursor: pointer;
 }
 
 .content{
-    margin-top: 2rem;
+    margin-top: 0.6rem;
 }
 
 .pic-item{
@@ -89,5 +89,20 @@
 }
 
 .credit-name{
-    width: 3rem;
+    width: auto;
+    margin: 0;
+    padding: 2px 8px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
 }

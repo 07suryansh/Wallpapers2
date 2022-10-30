@@ -13,7 +13,7 @@
 
 
 .text-lg{
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .text-sm{
@@ -21,10 +21,58 @@
 }
 
 .navbar{
-    display: flex;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     align-items: center;
     padding: 16px 0px 4px 14px;
     cursor: pointer;
+}
+
+.content{
+    margin-top: 2rem;
+}
+
+.pic-item{
+    width: 100%;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+}
+
+
+.item{
+    width:inherit;
+    border-radius: 8px;
+}
+
+
+.btn-item{
+    width: 25%;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.btn{
+    border: 2px solid #645CAA;
+    border-radius: 8px;
+    width: auto;
+    margin: 0.5rem 1rem 0.5rem 1rem;
+    padding: 2px 8px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.btn:hover{
+    background-color: #645CAA;
+    color: white;
+    
 }
 

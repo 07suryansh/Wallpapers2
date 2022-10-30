@@ -19,6 +19,9 @@
 .text-sm{
     font-size: 20px;
 }
+.text-xsm{
+    font-size: 10px;
+}
 
 .navbar{
     /* background-color: antiquewhite; */
@@ -47,11 +50,10 @@
 
 .btn-item{
     width: 25%;
-    display: block;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin: 0 auto;
+    justify-content: flex-start;
+    padding: 0.5rem;
 }
 
 .row{
@@ -62,9 +64,9 @@
 
 .btn{
     border: 2px solid #645CAA;
-    border-radius: 8px;
+    border-radius: 4px;
     width: auto;
-    margin: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0;
     padding: 2px 8px;
     cursor: pointer;
     background-color: white;
@@ -76,3 +78,16 @@
     
 }
 
+.download{
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.preview{
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.credit-name{
+    width: 3rem;
+}
